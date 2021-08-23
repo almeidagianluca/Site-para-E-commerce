@@ -1,0 +1,114 @@
+
+/*  PÁGINA INDEX  ------------------------------------------------------------------------------*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #ff3737b0; /*#7599f5*/
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    margin-top: -87px;
+
+}
+
+.botao_index{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;  
+    text-align: center;  
+}
+
+.botao_index:hover:not(.active){
+    background-color: rgba(165, 42, 42, 0.767);
+    color: white;
+}
+
+li{
+    border-bottom: 1px solid white;
+}
+/*li:last-child{
+    border-bottom: none;
+}
+*/
+.conteudo{
+    margin-left: 25%;
+    padding: 0px 16px;
+  
+}
+
+/*img{
+    margin-top: 175px;
+    width: 342px;
+    position: fixed;
+    overflow: auto;
+}*/
+
+.info{
+    text-align: center;
+    margin-top: 440px;
+    
+}
+
+.cabeçalho{
+    background-color: #ff3737e5; /*#092671af*/
+    height: 84px;
+    margin-bottom: 3px;
+    margin-left: 322px;
+    
+   
+}
+
+.slogan{
+    margin-left: 300px;
+    
+}
+
+/*  PÁGINA DE DETALHES  --------------------------------------------------------------------------------*/
+.img_detalhe{
+    position: fixed;
+}
+.txt_detalhe{
+    margin-left: 580px;
+}
+
+.preço{
+    color: red;
+}
+button{
+    width: 100px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    background-color: #f51f1ff5;
+    border-radius: 7px;
+}
+.cabeçalhoDetalhe{
+    background-color: #ff3737e5; /*#092671af*/
+    height: 84px;
+    
+}
+.sloganDetalhe{
+    
+    margin-left: 540px;
+}
+
+/*  PÁGINA FINAL   ---------------------------------------------------------------------------------------*/
+
+.comprado{
+    text-align: center;
+}
+.img_comprado{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn_comprado{
+    display: block;
+    width: 170px;
+    margin-left: 530px;
+    
+
+}
